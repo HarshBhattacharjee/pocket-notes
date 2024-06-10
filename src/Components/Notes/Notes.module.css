@@ -96,7 +96,7 @@ body {
   letter-spacing: 0.03938rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 769px) {
   .NotesGroupHeading,
   .NotesContent,
   .NotesEnter {
@@ -109,7 +109,7 @@ body {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 769px) {
 .backButton{
 display: none;
 }}
