@@ -1,0 +1,136 @@
+.homeMainPage {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .hideWhenMobile {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .hideWhenPc{
+    display: none;
+  }
+}
+
+.colorButton1 {
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #b38bfa;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton2 {
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #ff79f2;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton3 {
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #43e6fc;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton4 {
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #f19576;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton5 {
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #0047ff;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton6 {
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #6691ff;
+  border: 0px solid #b48bfa00;
+}
+
+.colorButton6:active, .colorButton5:active, .colorButton4:active, .colorButton3:active, .colorButton2:active, .colorButton1:active {
+    border: 3px solid #FFFFFF;
+  }
+
+.Choosecolour {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .ChoosecolourBreak::before {
+    content: "\a";
+    white-space: pre;
+  }
+}
+
+.create {
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.2%;
+  letter-spacing: 0.04375rem;
+  min-width: 111px;
+  min-height: 41px;
+  border-radius: 0.6875rem;
+  background: #000;
+  position: relative;
+  right: -75%;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .create {  
+    width: 80vw;
+    height: 41px;
+    position: center;
+    left: 11px;
+  }
+}
+
+.placeHold {
+  padding-left: 1vw;
+  border-radius: 22px;
+  border: 2px solid #CCCCCC;
+  background: #FFFFFF;
+  width: 435px;
+  height: 49px;
+  font-size: 1.4rem;
+}
+
+.placeHold::placeholder {
+  position: relative;
+  left: 11px;
+}
+
+.Text1 {
+  color: #000000;
+  font-size: 1.8125rem;
+  font-weight: 579;
+  line-height: 1.6;
+  letter-spacing: 0.06;
+}
+
+.Text2 {
+  color: #000000;
+  font-size: 1.70713rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.06rem;
+}

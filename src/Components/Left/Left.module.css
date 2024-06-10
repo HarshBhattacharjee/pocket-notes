@@ -1,0 +1,76 @@
+.leftSidePannel {
+  background: #FFFFFF;
+  width: 23vw;
+  height: 98.3vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.createNotesGroup {
+  border-radius: 3.125rem;
+  background: #000;
+  width: 20.65vw;
+  margin-left: 1vw;
+  padding: 4.5% 4.5% 4.5% 4.5%;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  letter-spacing: 0.03rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notesGroupSlected {
+  padding: 4% 3% 3% 3%;
+  width: 21vw;
+  height: 3.4rem;
+  display: flex;
+  justify-content: center;
+  justify-self: start;
+}
+
+.act{
+  padding: 1vw 1vh;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .leftSidePannel {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .createNotesGroup {
+    border-radius: 3.125rem;
+    background: #000;
+    width: 86vw;
+    padding: 4.5% 4.5% 4.5% 4.5%;
+    color: #FFFFFF;
+    font-size: 1.6875rem;
+    font-weight: 500;
+    line-height: 97.688%; 
+    letter-spacing: 0.03375rem;
+  }
+
+  .notesGroupSlected {
+    padding: 5% 3% 3% 3%;
+
+    width: 100vw;
+    height: 2.375rem;
+  }
+
+  .notesGroupSlected:active {
+    width: 97vw;
+  }
+}
+

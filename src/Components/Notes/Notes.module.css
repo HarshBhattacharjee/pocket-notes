@@ -1,0 +1,115 @@
+body {
+  background-color: #F7ECDC;
+}
+
+.NotesName {
+  color: #000000;
+  font-size: 1.29188rem;
+  font-weight: 500;
+  letter-spacing: 0.02581rem;
+  position: relative;
+  left: 5px;
+}
+
+.NotesGroupHeading {
+  background: #E8E8E8;
+  width: 77vw;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.NotesContent {
+  border-radius: 0rem 0rem 0rem 0.9375rem;
+  background: #F7ECDC;
+  width: 67vw;
+  height: 63vh;
+  overflow-y: scroll;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed;
+  top: 77px;
+}
+
+.NotesEnter {
+  padding: 1.2vh 0;
+  background-color: #E8E8E8;
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 76vw;
+}
+
+.NotesInput {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.03725rem;
+  border: 1px solid #FFFFFF;
+  border-radius: 9px;
+  width: 73vw;
+  height: 25vh;
+}
+
+.NotesInput::placeholder {
+  position: absolute;
+  top: 2px;
+}
+
+.NotesInputButton {
+  border: 0px solid none;
+  position: absolute;
+  right: 3.6%;
+  bottom: 16%;
+  cursor: pointer;
+}
+
+.time {
+  color: #353535;
+  font-size: 1.16463rem;
+  font-weight: 500;
+  line-height: 97.688%;
+  letter-spacing: 0.02331rem;
+}
+
+.date {
+  color: #353535;
+  font-family: Roboto;
+  font-size: 1.16463rem;
+  font-weight: 500;
+  line-height: 97.688%;
+  letter-spacing: 0.02331rem;
+}
+
+.notes {
+  color: #000000;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 160.188%;
+  letter-spacing: 0.03938rem;
+}
+
+@media (max-width: 900px) {
+  .NotesGroupHeading,
+  .NotesContent,
+  .NotesEnter {
+    width: 100%;
+  }
+
+  .NotesInput {
+    max-width: 95vw;
+    min-width: 95vw;
+  }
+}
+
+@media (min-width: 900px) {
+.backButton{
+display: none;
+}}
